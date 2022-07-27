@@ -11,7 +11,7 @@ app.use(cors());
 const PORT = 3001;
 
 
-mongoose.connect('mongodb+srv://new_user2:PAUQxQRCTIgS2RZL@cluster0.7gatw.mongodb.net/evolv?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://@cluster0.7gatw.mongodb.net/evolv?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     //useCreateIndex: true,
     useUnifiedTopology: true 
